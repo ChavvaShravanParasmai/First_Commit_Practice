@@ -17,8 +17,5 @@ if response.status_code == 200:
         print(quote_value)
     else:
         print("No quotes found in the program.")
-        print("Try again.")
-        print("Test 1.")
-        print("Test 2.")
 else:
     print(f"Error: {response.status_code} - {response.text}")
